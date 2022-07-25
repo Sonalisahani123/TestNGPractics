@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Reading Browsing details from testng xml file]">
+  <test thread-count="5" name="Reading Browsing details(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.ParameterTest">
+        <methods>
+          <include name="yahoologinTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.ParameterTest -->
+    </classes>
+  </test> <!-- Reading Browsing details(failed) -->
+</suite> <!-- Failed suite [Reading Browsing details from testng xml file] -->
